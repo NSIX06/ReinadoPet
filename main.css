@@ -17,6 +17,7 @@ header
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    
 }
 
 header h1
@@ -95,30 +96,6 @@ a:hover
     
 }
 
-.pesq{
-    display: flex;
-    justify-content: center;
-    
-    
-}
-
-.pesq input{
-    align-items: center;
-
-    color: #000000;
-    width: 200px;
-    border-radius: 10px;
-    padding: 0.9%;
-    border: 1px rgb(138, 138, 138) solid;
-    
-    
- }
-
-.pesq input:focus{
-
-    border: 1px #7324F3 solid;
-    outline:#7324F3 ;
-}
 
 #intro{
     
@@ -127,6 +104,21 @@ a:hover
     font-size: 15px;
     padding: 4% 4%;
     text-align: left;
+}
+
+.promo{
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.promo img{
+
+width: 359px;
+height: 39px;
+border-radius: 10px;
 }
 
 #pet{
@@ -162,8 +154,22 @@ a:hover
 
 }
 
+.cli{
+
+    display: flex;
+    justify-content: center;
+    color: #000000;
+}
+
+.cli:hover{
+
+    color: #ff0000;
+    border: 0;
+    background: #fff;
+}
 .container-banner img{
 
+    display: none;
     width: 500px;
     justify-content: space-between;
 }
@@ -181,7 +187,7 @@ a:hover
 #programacao
 {
     background-color: #FFF;
-    color: #5E17EB;
+    color: #c300ff;
     text-align: center;
     font-size: 20px;
     width: 400px;
@@ -228,32 +234,8 @@ footer{
         height: 100%;
     }
 
-    .pesq{
-
-        display: flex;
-        justify-content: center;
+ 
         
-        
-    }
-    
-    .pesq input{
-
-        font-family: Mulish;
-        align-items: center;
-        color: #000000;
-        width: 400px;
-        border-radius: 10px;
-        padding: 0.5%;
-        border: 1px rgb(138, 138, 138) solid;
-        
-        
-     }
-    
-    .pesq input:focus{
-    
-        border: 1px #7324F3 solid;
-        outline:#7324F3 ;
-    }
 
     .container
     {
@@ -274,7 +256,70 @@ footer{
     
     }
 
+    .container-banner img{
 
+        display: block;
+        width: 500px;
+        justify-content: space-between;
+    }
+    
+    .container-banner 
+        
+        {
+        
+        display: flex;
+        float: right;
+        justify-content: space-between;
+        
+        }
     
 
+
+
+        .promo{
+
+            display: flex;
+            justify-content: center;
+            width: 100%;
+
+        }
+        
+       .promo img{
+
+        width: 1000px;
+        height: 90px;
+        border-radius: 10px;
+       }
+
+       .cli{
+
+    display: flex;
+    justify-content: center;
+    color: #000000;
 }
+
+.cli:hover{
+
+    color: #ff0000;
+    border: 0;
+    background: #fff;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
