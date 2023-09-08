@@ -20,6 +20,41 @@ header
     
 }
 
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+      
+  .btn-text-top {
+    background-color: #f5f6fa;
+    border: 0;
+    padding: 05px 90px 05px 15px;
+    border-radius: 10px;
+    width: 100%!important;
+    height: 20px;
+    font-weight: 300;
+    transform: translate(40%, 38%);
+ 
+  }
+      
+  .btn-buscar-top {
+    display: flex;
+    align-content: center;
+    width: 20px!important;
+    height: 22px;
+    background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+    cursor: pointer!important;
+    border: none;
+    transform: translateY(-50%);
+    padding: 0;
+    position: relative;
+    top: -3px;
+    left: 489px;
+  }
+
 header h1
 {
     justify-content: flex-start;
@@ -142,6 +177,7 @@ border-radius: 10px;
     justify-content: space-between;
     align-items: center;
     gap: 12px;
+    padding: 2% 1%;
 }
 
 .card{
@@ -217,10 +253,10 @@ footer{
         
         color: #f1f1f1;
         display: flex;
-       flex-direction: row;
-       padding: 10px;
-       justify-content: space-between;
-       align-items: center;
+        flex-direction: row;
+        padding: 10px;
+        justify-content: space-between;
+        align-items: center;
     }
 
     #botao-hamburguer
@@ -291,19 +327,86 @@ footer{
         border-radius: 10px;
        }
 
-       .cli{
+       .mp{
 
-    display: flex;
-    justify-content: center;
-    color: #000000;
-}
+        display: flex;
+        justify-content: center;
+        color: #ffffff;
+        }
 
-.cli:hover{
+        .mp:hover{
 
-    color: #ff0000;
+        color: #ff0000;
+        border: 0;
+        background:#7324F3;
+        }
+
+        .mais h2{
+
+            margin: 0;
+            padding: 2% 2%;
+        }
+
+        .preco{
+
+            font-size: 20px;
+            color: #FFF;
+        }
+
+    .procurado{
+
+    background-color: #7324F3;
+    width: 28%;
+    padding: 2% 1%;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin: 25px;
+    }
+
+    .container-produtos
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+    .foto   
+    {
+        width: 300px;
+        height: 300px;
+        padding: 2% 1%;
+        justify-content: space-around;
+        border: 0;
+        border-radius: 12px;
+    }
+
+
+    .mp{
+
+
+        background-color:#7324F3;
+        text-align: center;
+        border: 10px;
+
+    }
+
+    #pro
+{
+    background-color:#7324F3;
+    color: #c300ff;
+    text-align: center;
+    font-size: 20px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
     border: 0;
-    background: #fff;
+    
 }
+
+
 }
 
 
