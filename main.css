@@ -257,7 +257,7 @@ article{
     border-radius: 400px;
     border: 1px #7324F3 solid;
     outline:#7324F3 ;
-    padding: 5% 5%;
+    
    
 
 }
@@ -265,13 +265,14 @@ article{
 .cli{
 
     display: flex;
+    text-align: center;
     justify-content: center;
     color: #000000;
     background-color: transparent;
     border: none;
     margin: 0 auto;
     justify-content: space-around;
-    padding: 5% 5%;
+   
     
 }
 
