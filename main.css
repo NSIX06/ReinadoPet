@@ -7,75 +7,56 @@ body
     
 }
 
+.container-produtos{
 
-
-
-        .procurado{
-
-            background-color:#9155F2;
-            width: 20%;
-            padding: 2% 1%;
-            text-align: center;
-            border-radius: 10px;
-            justify-content: space-between;
-            margin: 25px;
-        }
-
-        .container-produtos{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #e1e1e1;
-            border-radius: 10PX;
-            margin: 25PX;
-
-        }
-
-        .foto   
-        {
-            width: 200px;
-            height: 200px;
-            padding: 2% 1%;
-            justify-content: space-around;
-            border: 0;
-            border-radius: 12px;
-        }
- 
-        #pro
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eae8e8;
+    border-radius: 10PX;
+    margin: -1.5px;
     
-        {
-            padding: 2% 1%;
-            background-color:#ffffff;
-            font-size: 20px;
-            width: 200px;
-            text-align: center;
-            border-radius: 10px;
-            border: 0;
-            
-        }
-
-        .mp{
+}
 
 
-            background-color:#ffffff;
-            text-align: center;
-            border: 10px;
-    
-        }
-        .shop H4 {
 
-            background-color: #5E17EB8F;
-            border: 0;
-            border-radius: 10px;
-            color:#000000;
-           
-    
-        }
+.procurado{
 
-        .shop{  
+    background-color:#9155F2;
+    padding: 2% 1%;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin: 25px;
+}
 
-            font-size: 25px;
-        }
+
+.foto   
+{
+    width: 200px;
+    height: 200px;
+    padding: 2% 1%;
+    justify-content: space-around;
+    border: 0;
+    border-radius: 12px;
+}
+
+.shop H4 {
+
+    background-color: #5E17EB8F;
+    border: 0;
+    border-radius: 10px;
+    color:#000000;
+   
+
+}
+
+.shop{  
+
+    font-size: 25px;
+}
+      
 
 
 
@@ -103,7 +84,7 @@ header
     width: 100%!important;
     height: 20px;
     font-weight: 300;
-    transform: translate(39%, 34%);
+    transform: translate(39%, 32%);
  
   }
       
@@ -174,12 +155,13 @@ a:hover
 #banner{
 
     width: 100%;
+    
 }
 
 #banner img
 {
-    width: 500px;
-    height: 200px;
+    width: 400px;
+    height: 202px;
     margin: 0;
     border: 0;
     
@@ -209,18 +191,21 @@ a:hover
     text-align: left;
 }
 
-.promo{
+#promo{
 
     display: flex;
-    justify-content: center;
-    width: 100%;
+    justify-content: center;;
+    margin: 25px;
+    border-radius: 10px;
+    padding: 5% 5%;
+    
 
 }
 
-.promo img{
+#promo img{
 
-width: 359px;
-height: 39px;
+width: 360px;
+height:50px;
 border-radius: 10px;
 }
 
@@ -229,7 +214,7 @@ border-radius: 10px;
 
     padding: 1% 4%;
     text-align: center;
-    color: #7024ea;
+    color: #4307a3;
     font-size: 20;
 }
 
@@ -237,7 +222,7 @@ border-radius: 10px;
 
     text-align: center;
     padding: 2% 1%;
-    background-color: #e1e1e1;
+    background-color: #eae8e8;
     border-radius: 10px;
 }
 
@@ -258,6 +243,7 @@ border-radius: 10px;
     border-radius: 400px;
     border: 1px #7324F3 solid;
     outline:#7324F3 ;
+    padding: 5% 5%;
 
 }
 
@@ -274,6 +260,33 @@ border-radius: 10px;
     border: 0;
     background: #fff;
 }
+
+.procurado h5{
+    font-size: 19px;
+    color: #f1f1f1;
+}
+
+.hop{
+    
+        display: flex;
+        justify-content: center;
+        color: #000000;
+        background-color: #f1f1f1;
+        border-radius: 10px;
+        padding: 2% 1%;
+        width: 200px;
+        height: 20px;
+        text-align: center;
+    
+}
+    .hop:hover{
+    
+        color:#f1f1f1;
+        border: 0;
+        background:#000000;
+    }
+
+
 .container-banner img{
 
     display: none;
@@ -290,6 +303,26 @@ border-radius: 10px;
     justify-content: space-between;
     
     }
+
+
+    .mais
+    {
+            
+        padding: 1% 4%;
+        text-align: center;
+        
+        font-size: 20;
+    
+    }
+    .mais h2{
+
+        color: #7024ea;
+        text-align: center;
+        padding: 2% 1%;
+        background-color: #e1e1e1;
+        border-radius: 10px;
+    }
+
 
 #programacao
 {
@@ -385,16 +418,19 @@ footer{
         #promo{
 
             display: flex;
-            justify-content: center;
-            
+            justify-content: center;;
             margin: 25px;
             border-radius: 10px;
             padding: 5% 5%;
+            
+        
         }
 
 
         #promo img{
 
+            width: 800px;
+            height: 70px;
             border-radius: 10px;
             
         }
@@ -414,27 +450,13 @@ footer{
         background:#ffffff;
         }
 
-        .mais h2{
-
-
-            margin: 0;
-            padding: 4% 3%;
-        }
-
        
-        .procurado{
 
-            display: block;
-            background-color:#9155F2;
-            width: 20%;
-            padding: 2% 1%;
-            text-align: center;
-            border-radius: 10px;
-            justify-content: space-between;
-            margin: 25px;
-        }
-
-       
+       .container-produtos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       }
 
 
         .btn-text-top {
